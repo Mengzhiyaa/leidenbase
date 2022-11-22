@@ -226,7 +226,7 @@ SEXP _leiden_find_partition( SEXP igraph, SEXP partition_type, SEXP initial_memb
    */
   SEXP rmembership;
 
-  if( numVertex <= INT32_MAX )
+  if( numVertex <= INT_MAX )
   {
 #if ( DEBUG )
   std::cout << "Debug: _leiden_find_partition: return membership as integer vector\n";
