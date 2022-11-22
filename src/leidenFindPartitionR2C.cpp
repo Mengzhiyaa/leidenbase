@@ -63,6 +63,7 @@
 #include <igraph.h>
 #include "igraph_rinterface.h"
 #include "leidenFindPartition.h"
+#include<limits.h> 
 
 #define DEBUG   0
 
